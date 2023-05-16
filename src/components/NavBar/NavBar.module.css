@@ -1,5 +1,9 @@
 .conteiner{
-    background-color: rgba(137, 43, 226, 0.274);
-    padding: auto;
-  position:unset;
+   display: flex; 
+   justify-content: flex-end;
+   text-align:center;
+   background-color: rgba(255, 230, 0, 0.733);
+   height: 45px;
+   margin: 10px;
 }
+

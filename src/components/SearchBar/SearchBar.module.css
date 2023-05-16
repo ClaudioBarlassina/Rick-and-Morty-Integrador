@@ -1,19 +1,17 @@
 .wrapperSearch{
-    background-color: white;
-    width: 400px;
-    border: none;
-    position: relative;
-    border-radius: 10px;
+    margin: 0px 150px ;
+    
+ 
 
 }
 .input{
-border: none;
-width: 80%;
+border-radius: 10px
+;
 }
 
 .btn{
     background: transparent ;
-    border: none;
- position: absolute;
- width: 20%;
+border-radius: 100%;
+ 
+ 
 }
