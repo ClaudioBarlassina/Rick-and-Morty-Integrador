@@ -1,0 +1,19 @@
+.wrapperSearch{
+    background-color: white;
+    width: 400px;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+
+}
+.input{
+border: none;
+width: 80%;
+}
+
+.btn{
+    background: transparent ;
+    border: none;
+ position: absolute;
+ width: 20%;
+}

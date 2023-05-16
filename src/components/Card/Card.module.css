@@ -1,0 +1,37 @@
+.wrapperCard{
+    background-color: #f1f1f1;
+    width: 320px;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 11px 16px 5px 1px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 11px 16px 5px 1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 11px 16px 5px 1px rgba(0,0,0,0.58);
+    
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+
+    
+}
+.name{
+    position: absolute;
+    left: 0px;
+    background-color: rgb(42, 9, 134);
+    bottom: 140px;
+    color: #f1f1f1;
+    width: 60%;
+}
