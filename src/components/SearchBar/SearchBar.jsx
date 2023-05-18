@@ -11,14 +11,11 @@ export default function SearchBar(props) {
       console.log(Id)
    }
    
-
-
-
    return (
       <div className={styles.wrapperSearch}>
          <input className={styles.input} type='search'
             onChange={handleChange} value={Id} />
-         <button className={styles.btn} onClick={()=>{onSearch(Id)}}>🔎</button>
+         <button className={styles.btn} onClick={()=>{onSearch(Id)}}>Buscar</button>
       </div>
    );
 }

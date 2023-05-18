@@ -8,8 +8,8 @@ const NavBar = (props) => {
     const {onSearch} = props
   return (
     <div className={styles.conteiner }>
-      <Link to={PathRoutes.HOME}>Home</Link>
-      <Link to={PathRoutes.ABOUT }>About</Link>
+      <Link className={styles.btn} to={PathRoutes.HOME}>Home</Link>
+      <Link className={styles.btn} to={PathRoutes.ABOUT }>About</Link>
       <SearchBar onSearch={onSearch} />
     </div>
   )

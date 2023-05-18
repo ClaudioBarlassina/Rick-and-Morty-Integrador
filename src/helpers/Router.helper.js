@@ -1,5 +1,5 @@
 export  const PathRoutes = {
-    HOME: '/',
+    HOME: '/home',
     ABOUT: '/About',
     DETAIL:'/detail/:id'
 }
