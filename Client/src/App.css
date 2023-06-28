@@ -1,0 +1,11 @@
+.App {
+  background-image: url("./images/rick-and-morty-animated-tv-show-wallpaper.jpg");
+  /* text-align: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
